@@ -69,5 +69,11 @@ sudo apt-get install -y \
   neofetch
 
 # Clean up to free disk space
+df -h
+lscpu
+free -h
+pwd
+fdisk -l
+lsblk
 sudo apt-get autoremove -y
 sudo apt-get clean
