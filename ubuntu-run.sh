@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Update package lists
-sudo apt-get update -y
-sudo apt install neofetch -y
-neofetch
+cd /home/u232804/eo
+. build/envsetup.sh
+riseup lancelot userdebug
+rise b
 
 # Install essential packages
 
